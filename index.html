@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <div class="jumbotron text-center">
+            <h1>IOT Switch</h1>
+        </div>
+        <center>
+            <div class="status"><h1>The aircon is currently off</h1></div>
+            <button class="btnOff">OFF</button>
+            <button class="btn1">Low cool</button>
+            <button class="btn2">High cool</button>
+        </center>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.js"></script>
+    <script src="scripts/browser_mqtt.js"></script>
+    <script src="scripts/controller.js"></script>
+</body>
+
+</html>
